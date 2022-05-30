@@ -1,0 +1,21 @@
+body {
+    width: 800px;
+    margin: 0;
+    font-size: 0px;
+    background-color: #BFBFBF;
+    color: black;
+}
+
+#nav-table {
+    background-color: rgb(1, 15, 36);
+}
+
+table {
+  width: 800px;
+  margin: 0;
+}
+
+td {
+  width: 200px;
+  text-align: center;
+}

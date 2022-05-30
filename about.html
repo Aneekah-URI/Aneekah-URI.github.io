@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>About Me</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      .container {
+        position: relative;
+        margin: 0;
+      }
+
+      .content {
+        position: absolute;
+        top: 8px;
+        left: 25px;
+        right: 4px;
+        color: #BFBFBF;
+        font-size: 24px;
+      }
+
+      #pics {
+        width: 170px;
+        height: auto;
+        object-fit: contain;
+        margin: 0;
+      }
+
+      #pictures-table {
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+        right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="myBanner.jpg" alt="banner">
+    <table id="nav-table">
+      <tr>
+        <td><a href="index.html"><img src="home.png"></a></td>
+        <td><a href="javascripts.html"><img src="javascripts.png"></a></td>
+        <td><a href="about.html"><img src="about.png"></a></td>
+      </tr>
+    </table>
+
+    <div class="container">
+      <img src="myBackground.jpg" alt="background">
+        <div class="content">
+          <h1>About Me Page</h1>
+          <h2>About Aneekah Younus</h2>
+          <p>I am a sophomore at Wheeler School, and want to major in CS. I like learning math 
+          the most because it seems messy but it is elegant as you see how concepts fit together. 
+          My love for logic can also be seen in my approach to drawing; I try to draw as technical 
+          as possible because it gives me confidence in starting a piece. I'm not someone who draws 
+          from imagination or can start on a page immediately, I like to have everything planned out 
+          and measured. Though this takes longer, I really enjoy the process.
+          </p>
+        </div>
+        <table cellspacing="0" cellpadding="0" id="pictures-table">
+          <tr>
+            <td><img src="aneekah.jpg" id="pics"></td>
+            <td><img src="books.png" id="pics"></td>
+            <td><img src="art_desk.png" id="pics"></td>
+            <td><img src="aneekah2.jpg" id="pics"></td>
+          </tr>
+        </table>
+    </div>
+  </body>
+</html>
